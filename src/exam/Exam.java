@@ -36,14 +36,14 @@ public class Exam {
           
           
         // Hello = "World";
-        
+            System.out.println("Exam 3");
         int i = 20;
         i++;
         i++;
         i++;
         i++;
         i++;
-        System.out.print("Exam 2.3");
+        
         System.out.println(i);
         --i;
         --i;
@@ -51,7 +51,7 @@ public class Exam {
         --i;   
         --i;
         System.out.println(i);
-            
+         
         if(myFloat > 2.32 && myFloat < 1.00){
             System.out.println("True");
         }
@@ -66,7 +66,7 @@ public class Exam {
             System.out.println("False");
         }
         
-        
+        System.out.println("Exam 4.1");
         int score = 80;
         if(score >= 80){
             System.out.println("Good");
@@ -78,7 +78,7 @@ public class Exam {
             System.out.println("Fail");
         }
         
-        
+        System.out.println("Exam 4.3");
         int Grade = 50;
         
          if(Grade >= 80){
@@ -100,7 +100,7 @@ public class Exam {
             System.out.println("F");
         }
          
-         
+         System.out.println("Exam 4.4");
         i = 0;
         int sum = 0;
         while(i <= 10){
@@ -135,16 +135,17 @@ public class Exam {
                 num = input;
             }    while(num%2 == 0);
       
-         
+          System.out.println("Exam 4.5");
       int count = 20;
            for(int r = 0;r<= count;count--){
-               if(count == 11){
-                   break;
+               if(count != 11){
+                   continue;
+                   
                }
                System.out.println(count);
            }
             
-        
+       
       int ten = 10;
       for(i = 1;i <= 10;i++){
           if(i != 2){   
@@ -157,6 +158,7 @@ public class Exam {
       }
       
       int mynum = 2;
+       System.out.println("Exam 5");
       System.out.println(thisreturn(mynum));
       nonreturn();
     }
